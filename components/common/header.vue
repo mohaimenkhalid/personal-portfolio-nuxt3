@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {Button} from "~/components/ui/button";
 import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
-
+const isOpenMobileMenu = ref(false)
 </script>
 
 <template>
@@ -37,20 +37,23 @@ import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
               </a>
             </Button>
           </div>
-          <Hamburger class="ml-5" />
+          <Hamburger v-model="isOpenMobileMenu" class="ml-5" />
         </div>
       </div>
     </div>
   </header>
-  <div class="mobile_menu_container">
-    <ul class="mobile_menu">
-      <li class="mobile_menu_list_item">Services</li>
-      <li class="mobile_menu_list_item">Work</li>
-      <li class="mobile_menu_list_item">Resume</li>
-      <li class="mobile_menu_list_item">Skill</li>
-      <li class="mobile_menu_list_item">Contact</li>
-    </ul>
-  </div>
+<!--  v-if="isOpenMobileMenu"-->
+  <Transition name="slide">
+    <div v-if="isOpenMobileMenu" class="mobile_menu_container">
+      <ul class="mobile_menu">
+        <li class="mobile_menu_list_item">Services</li>
+        <li class="mobile_menu_list_item">Work</li>
+        <li class="mobile_menu_list_item">Resume</li>
+        <li class="mobile_menu_list_item">Skill</li>
+        <li class="mobile_menu_list_item">Contact</li>
+      </ul>
+    </div>
+  </Transition>
 </template>
 
 <style>
@@ -70,6 +73,21 @@ import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
 .menu-bar ul li {
   font-weight: var(--tj-fw-medium);
   font-size: var(--tj-fz-btn);
+}
+
+.slide-enter-active {
+  transition: all 0.6s ease-out;
+}
+
+.slide-leave-active {
+  transition: all 0.6s ease-in-out;
+}
+
+.slide-enter-from {
+  transform: translateX(-500px);
+}
+.slide-leave-to {
+  transform: translateX(500px);
 }
 
 </style>

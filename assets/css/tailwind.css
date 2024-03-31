@@ -148,7 +148,7 @@
   }
 
   .mobile_menu_container {
-    @apply absolute right-0 top-[120px] bottom-0 bg-[color:var(--tj-theme-secondary)] w-full h-full z-[999999]
+    @apply absolute right-0 top-[120px] bottom-0 bg-[color:var(--tj-theme-secondary)] w-full h-full z-[9999]
   }
 
   .mobile_menu_list_item {

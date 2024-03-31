@@ -1,6 +1,10 @@
+<script setup>
+const model = defineModel({required: true, default: false})
+</script>
+
 <template>
   <div>
-    <input type="checkbox" id="hamburger-checkbox" class="hamburger-checkbox visuallyHidden">
+    <input type="checkbox" v-model="model" id="hamburger-checkbox" class="hamburger-checkbox visuallyHidden">
     <label for="hamburger-checkbox">
       <div class="hamburger hamburger-menu">
         <span class="bar bar1"></span>
