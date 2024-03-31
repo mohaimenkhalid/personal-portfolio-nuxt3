@@ -33,7 +33,7 @@ import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
           <div class="ml-8">
             <Button as-child>
               <a href="/" class="hire-me-btn">
-                Button
+                Hire Me
               </a>
             </Button>
           </div>
