@@ -146,4 +146,16 @@
     -o-transition: 0.4s;
     transition: 0.4s !important;
   }
+
+  .mobile_menu_container {
+    @apply absolute right-0 top-[120px] bottom-0 bg-[color:var(--tj-theme-secondary)] w-full h-full z-[999999]
+  }
+
+  .mobile_menu_list_item {
+    @apply text-2xl py-2.5 uppercase leading-none tracking-[1px] mb-[20px]
+  }
+
+  .mobile_menu {
+    @apply m-0 p-0 list-none text-center mt-6
+  }
 }

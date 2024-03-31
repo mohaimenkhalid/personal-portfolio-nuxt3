@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {Button} from "~/components/ui/button";
+import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
 
 </script>
 
@@ -14,30 +15,42 @@ import {Button} from "~/components/ui/button";
       <div>
         <ul class="m-0 p-0 list-none">
           <li class="inline-block">
-            <a>mohaimen707@gmail.com</a>
+<!--            <a>mohaimen707@gmail.com</a>-->
           </li>
         </ul>
       </div>
-      <div class="menu-bar mr-auto w-full flex justify-end items-center">
-        <nav>
-          <ul class="m-0 p-0 flex gap-x-8 list-none">
-            <li class="inline-block">Services</li>
-            <li class="inline-block">Work</li>
-            <li class="inline-block">Resume</li>
-            <li class="inline-block">Skill</li>
-            <li class="inline-block">Contact</li>
-          </ul>
-        </nav>
-        <div class="ml-8">
-          <Button as-child>
-            <a href="/" class="hire-me-btn">
-              Hire Me
-            </a>
-          </Button>
+      <div class="menu-bar mr-auto w-full">
+        <div class="flex justify-end items-center">
+          <nav class="hidden md:block">
+            <ul class="m-0 p-0 flex gap-x-8 list-none">
+              <li class="inline-block">Services</li>
+              <li class="inline-block">Work</li>
+              <li class="inline-block">Resume</li>
+              <li class="inline-block">Skill</li>
+              <li class="inline-block">Contact</li>
+            </ul>
+          </nav>
+          <div class="ml-8">
+            <Button as-child>
+              <a href="/" class="hire-me-btn">
+                Button
+              </a>
+            </Button>
+          </div>
+          <Hamburger class="ml-5" />
         </div>
       </div>
     </div>
   </header>
+  <div class="mobile_menu_container">
+    <ul class="mobile_menu">
+      <li class="mobile_menu_list_item">Services</li>
+      <li class="mobile_menu_list_item">Work</li>
+      <li class="mobile_menu_list_item">Resume</li>
+      <li class="mobile_menu_list_item">Skill</li>
+      <li class="mobile_menu_list_item">Contact</li>
+    </ul>
+  </div>
 </template>
 
 <style>
