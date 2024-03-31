@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { BriefcaseBusiness } from 'lucide-vue-next';
+
 import {Button} from "~/components/ui/button";
 import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
 const isOpenMobileMenu = ref(false)
@@ -9,7 +11,8 @@ const isOpenMobileMenu = ref(false)
     <div class="container flex items-center">
       <div class="logo mr-9">
         <a href="">
-          <img width="80px" src="https://themejunction.net/html/gerold/demo/assets/img/logo/logo.png" alt="">
+          <BriefcaseBusiness class="w-10 h-10" />
+<!--          <img width="80px" src="https://themejunction.net/html/gerold/demo/assets/img/logo/logo.png" alt="">-->
         </a>
       </div>
       <div>

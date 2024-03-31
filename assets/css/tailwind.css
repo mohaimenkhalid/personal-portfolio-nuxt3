@@ -183,4 +183,26 @@
     font-size: 20px;
     font-weight: 300;
   }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--tj-theme-primary);
+    padding: 10px;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  .social-icon:hover {
+    transform: rotate(360deg);
+    scale: 1.2;
+    background-color: var(--tj-theme-primary);
+    -webkit-box-shadow: 0px 0px 91px 0px rgba(135,80,247,1);
+    -moz-box-shadow: 0px 0px 91px 0px rgba(135,80,247,1);
+    box-shadow: 0px 0px 91px 0px rgba(135,80,247,1);
+  }
+
 }
