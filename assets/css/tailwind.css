@@ -158,4 +158,29 @@
   .mobile_menu {
     @apply m-0 p-0 list-none text-center mt-6
   }
+
+  /*hero section*/
+
+  .hero-sub-title {
+    @apply font-bold text-4xl mb-2.5
+  }
+
+  .hero-title {
+    font-size: 65px;
+    font-weight: 700;
+    background: var(--tj-theme-primary);
+    background: -webkit-gradient(linear, left top, right top, from(var(--tj-theme-primary)), to(var(--tj-white)));
+    background: -o-linear-gradient(left, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-lead {
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+  }
 }

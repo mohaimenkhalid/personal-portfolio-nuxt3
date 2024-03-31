@@ -15,7 +15,7 @@ const isOpenMobileMenu = ref(false)
       <div>
         <ul class="m-0 p-0 list-none">
           <li class="inline-block">
-<!--            <a>mohaimen707@gmail.com</a>-->
+            <a href="">mohaimen707@gmail.com</a>
           </li>
         </ul>
       </div>
@@ -23,11 +23,21 @@ const isOpenMobileMenu = ref(false)
         <div class="flex justify-end items-center">
           <nav class="hidden md:block">
             <ul class="m-0 p-0 flex gap-x-8 list-none">
-              <li class="inline-block">Services</li>
-              <li class="inline-block">Work</li>
-              <li class="inline-block">Resume</li>
-              <li class="inline-block">Skill</li>
-              <li class="inline-block">Contact</li>
+              <li class="inline-block">
+                <a href="/">Services</a>
+              </li>
+              <li class="inline-block">
+                <a href="/">Work</a>
+              </li>
+              <li class="inline-block">
+                <a href="">Resume</a>
+              </li>
+              <li class="inline-block">
+                <a href="">Skill</a>
+              </li>
+              <li class="inline-block">
+                <a href="">Contact</a>
+              </li>
             </ul>
           </nav>
           <div class="ml-8">
@@ -37,17 +47,21 @@ const isOpenMobileMenu = ref(false)
               </a>
             </Button>
           </div>
-          <Hamburger v-model="isOpenMobileMenu" class="ml-5" />
+          <Hamburger v-model="isOpenMobileMenu" class="ml-5 block md:hidden" />
         </div>
       </div>
     </div>
   </header>
 <!--  v-if="isOpenMobileMenu"-->
   <Transition name="slide">
-    <div v-if="isOpenMobileMenu" class="mobile_menu_container">
+    <div v-if="isOpenMobileMenu" class="mobile_menu_container block md:hidden">
       <ul class="mobile_menu">
-        <li class="mobile_menu_list_item">Services</li>
-        <li class="mobile_menu_list_item">Work</li>
+        <li class="mobile_menu_list_item">
+          <a href="/">Services</a>
+        </li>
+        <li class="mobile_menu_list_item">
+          <a href="/">Work</a>
+        </li>
         <li class="mobile_menu_list_item">Resume</li>
         <li class="mobile_menu_list_item">Skill</li>
         <li class="mobile_menu_list_item">Contact</li>
@@ -56,7 +70,7 @@ const isOpenMobileMenu = ref(false)
   </Transition>
 </template>
 
-<style>
+<style scoped>
 .header-absolute {
   position: absolute;
   background-color: transparent;
@@ -70,7 +84,7 @@ const isOpenMobileMenu = ref(false)
   padding: 40px 0 20px;
 }
 
-.menu-bar ul li {
+ul li a{
   font-weight: var(--tj-fw-medium);
   font-size: var(--tj-fz-btn);
 }
