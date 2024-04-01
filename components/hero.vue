@@ -8,7 +8,7 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
       <div class="w-full flex">
         <div class="w-full md:w-1/2">
           <span class="hero-sub-title">I am Mohaimen</span>
-          <h1 class="hero-title text-[32px] md:text-[65px]">Software Engineer <br /> <span>(Frontend)</span></h1>
+          <h1 class="hero-title bg-clip text-[32px] md:text-[65px]">Software Engineer <br /> <span>(Frontend)</span></h1>
           <div class="w-full block md:hidden my-6">
             <div class="hero-image">
               <img class="!w-[250px] !h-[300px]" src="../assets/image/mohaimen_dark.jpg"  alt="mohaimen-img" />
