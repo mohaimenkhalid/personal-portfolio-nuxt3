@@ -162,11 +162,10 @@
   /*hero section*/
 
   .hero-sub-title {
-    @apply font-bold text-4xl mb-2.5
+    @apply font-bold mb-2.5 text-2xl md:text-4xl
   }
 
   .hero-title {
-    font-size: 65px;
     font-weight: 700;
     background: var(--tj-theme-primary);
     background: -webkit-gradient(linear, left top, right top, from(var(--tj-theme-primary)), to(var(--tj-white)));
@@ -177,11 +176,7 @@
   }
 
   .hero-lead {
-    max-width: 550px;
-    width: 100%;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 300;
+    @apply max-w-[550px] mb-0 text-lg md:text-xl font-light
   }
 
   .social-icon {

@@ -15,7 +15,7 @@ const isOpenMobileMenu = ref(false)
 <!--          <img width="80px" src="https://themejunction.net/html/gerold/demo/assets/img/logo/logo.png" alt="">-->
         </a>
       </div>
-      <div>
+      <div class="hidden md:block">
         <ul class="m-0 p-0 list-none">
           <li class="inline-block">
             <a href="">mohaimen707@gmail.com</a>

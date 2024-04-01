@@ -6,27 +6,34 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
   <section class="hero-section">
     <div class="container">
       <div class="w-full flex">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <span class="hero-sub-title">I am Mohaimen</span>
-          <h1 class="hero-title">Software Engineer <br /> <span>(Frontend)</span></h1>
+          <h1 class="hero-title text-[32px] md:text-[65px]">Software Engineer <br /> <span>(Frontend)</span></h1>
+          <div class="w-full block md:hidden my-6">
+            <div class="hero-image">
+              <img class="!w-[250px] !h-[300px]" src="../assets/image/mohaimen_dark.jpg"  alt="mohaimen-img" />
+            </div>
+          </div>
           <p class="hero-lead">
             I break down complex user experience
             problems to create Integrity focussed solutions that connect billions of people
           </p>
-          <div class="flex mt-10 items-center gap-x-5">
+          <div class="flex mt-10 items-center gap-5 flex-col md:flex-row">
             <a class="btn-download" href="">
               Download CV
               <Download class="h-5 w-5" />
             </a>
-            <a class="social-icon" href="">
-              <Linkedin class="h-5 w-5" />
-            </a>
-            <a class="social-icon" href="">
-              <Github class="h-5 w-5" />
-            </a>
+            <div class="flex gap-x-2">
+              <a class="social-icon" href="">
+                <Linkedin class="h-5 w-5" />
+              </a>
+              <a class="social-icon" href="">
+                <Github class="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2 hidden md:block">
           <div class="hero-image">
             <img src="../assets/image/mohaimen_dark.jpg"  alt="mohaimen-img" />
           </div>
@@ -75,8 +82,8 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
 }
 
 .hero-image img {
-  width: 450px;
-  height: 500px;
+  width: 400px;
+  height: 450px;
   border: 3px solid var(--tj-theme-primary);
   border-radius: 38px;
   -webkit-transform: rotate(4.29deg);
