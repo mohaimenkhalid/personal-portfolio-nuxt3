@@ -1,7 +1,5 @@
 <script setup>
-import Header from "~/components/common/header.vue";
-import Hero from "~/components/hero.vue";
-import Skills from "~/components/Skills.vue";
+
 </script>
 
 <template>
@@ -9,6 +7,7 @@ import Skills from "~/components/Skills.vue";
     <Header />
     <Hero />
     <Skills />
+    <Experience />
   </div>
 </template>
 

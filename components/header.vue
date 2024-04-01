@@ -27,10 +27,10 @@ const isOpenMobileMenu = ref(false)
           <nav class="hidden md:block">
             <ul class="m-0 p-0 flex gap-x-8 list-none">
               <li class="inline-block">
-                <a href="/">Services</a>
+                <a href="/public">Services</a>
               </li>
               <li class="inline-block">
-                <a href="/">Work</a>
+                <a href="/public">Work</a>
               </li>
               <li class="inline-block">
                 <a href="">Resume</a>
@@ -45,7 +45,7 @@ const isOpenMobileMenu = ref(false)
           </nav>
           <div class="ml-8">
             <Button as-child>
-              <a href="/" class="hire-me-btn">
+              <a href="/public" class="hire-me-btn">
                 Hire Me
               </a>
             </Button>
@@ -60,10 +60,10 @@ const isOpenMobileMenu = ref(false)
     <div v-if="isOpenMobileMenu" class="mobile_menu_container block md:hidden">
       <ul class="mobile_menu">
         <li class="mobile_menu_list_item">
-          <a href="/">Services</a>
+          <a href="/public">Services</a>
         </li>
         <li class="mobile_menu_list_item">
-          <a href="/">Work</a>
+          <a href="/public">Work</a>
         </li>
         <li class="mobile_menu_list_item">Resume</li>
         <li class="mobile_menu_list_item">Skill</li>

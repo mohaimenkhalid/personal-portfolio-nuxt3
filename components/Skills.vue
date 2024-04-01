@@ -1,9 +1,9 @@
 <template>
-  <div class="skills-section py-[20px] md:py-[120px]">
+  <div class="skills-section py-[20px] md:pt-[80px] md:pb-[40px]">
     <div class="container">
       <div class="section-header">
         <div class="w-full">
-          <h2 class="section-title">My Skills</h2>
+          <h2 class="section-title text-[30px] md:text-[45px]">My Skills</h2>
           <p>
             We put your ideas and thus your wishes in the
             form of a unique web project that inspires
