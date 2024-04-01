@@ -68,7 +68,7 @@
 }
 
 .skill-item {
-  @apply max-w-[180px] w-full text-center mb-12 relative
+  @apply max-w-[140px] md:max-w-[180px] w-full text-center mb-12 relative
 }
 
 .skill-inner {
