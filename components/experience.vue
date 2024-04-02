@@ -1,5 +1,5 @@
 <script setup>
-  import {BriefcaseBusiness, ExternalLink} from 'lucide-vue-next'
+  import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 </script>
 
 <template>
@@ -57,7 +57,7 @@
         </div>
         <div class="w-full md:w-1/2">
           <div class="flex items-center mb-10 md:my-12">
-            <div><BriefcaseBusiness class="w-10 h-10 md:w-16 md:h-16 text-[color:var(--tj-theme-primary)]" /></div>
+            <div><GraduationCap class="w-10 h-10 md:w-16 md:h-16 text-[color:var(--tj-theme-primary)]" /></div>
             <h2 class="section-title text-[30px] md:text-[45px] ml-2">
               My Education
             </h2>

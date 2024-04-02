@@ -93,12 +93,7 @@
 .skill-inner:hover {
   filter: grayscale(0%);
   border: 1px solid var(--tj-theme-primary);
-  background: var(--tj-theme-accent-2);
   transform: translate(0, -10px);
-}
-
-.skill-inner:hover>.skill-inner img{
- width: 1000px !important;
 }
 
 .skill-item h3 {
