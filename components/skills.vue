@@ -12,45 +12,45 @@
         </div>
       </div>
       <div class="flex flex-wrap gap-x-6">
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/vue.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/vue.svg">
           </div>
           <h3>Vue JS</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/nuxt.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/nuxt.svg">
           </div>
           <h3>Nuxt JS</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/react.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/react.svg">
           </div>
           <h3>React</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/nextjs.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/nextjs.svg">
           </div>
           <h3>Next JS</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/javascript.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/javascript.svg">
           </div>
           <h3>JS</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/laravel.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/laravel.svg">
           </div>
           <h3>Laravel</h3>
         </div>
-        <div class="skill-item">
-          <div class="skill-inner">
-            <img class="" src="../assets/image/php.svg">
+        <div class="skill-item group/skillItem">
+          <div class="skill-inner ">
+            <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/php.svg">
           </div>
           <h3>PHP</h3>
         </div>
@@ -68,7 +68,7 @@
 }
 
 .skill-item {
-  @apply max-w-[140px] md:max-w-[180px] w-full text-center mb-12 relative
+  @apply max-w-[140px] md:max-w-[180px] w-full text-center mb-12 relative transition-all ease-in-out duration-700
 }
 
 .skill-inner {
@@ -95,6 +95,10 @@
   border: 1px solid var(--tj-theme-primary);
   background: var(--tj-theme-accent-2);
   transform: translate(0, -10px);
+}
+
+.skill-inner:hover>.skill-inner img{
+ width: 1000px !important;
 }
 
 .skill-item h3 {
