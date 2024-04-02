@@ -2,7 +2,6 @@
 import { BriefcaseBusiness } from 'lucide-vue-next';
 
 import {Button} from "~/components/ui/button";
-import Hamburger from "~/components/ui/hamburger/Hamburger.vue";
 const isOpenMobileMenu = ref(false)
 </script>
 

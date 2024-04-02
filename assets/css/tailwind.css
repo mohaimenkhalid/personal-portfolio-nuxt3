@@ -49,6 +49,7 @@
     --tj-theme-secondary: #2a1454;
     --tj-theme-accent-1: #0f0715;
     --tj-theme-accent-2: #26163a;
+    --tj-theme-accent-3: #140c1c;
     --tj-grey-1: #747779;
     --tj-grey-2: #d9d9d9;
     --tj-grey-3: #dddddd;
@@ -233,7 +234,7 @@
     padding: 20px 30px;
     margin-bottom: 30px;
     border-radius: 20px;
-    background: var(--tj-theme-accent-2);
+    background: var(--tj-theme-accent-3);
     z-index: 10;
     width: 100%;
     transition: .8s;
