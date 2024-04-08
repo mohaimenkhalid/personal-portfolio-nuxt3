@@ -8,6 +8,7 @@
     <Hero />
     <Skills />
     <Experience />
+    <Contact />
   </div>
 </template>
 
