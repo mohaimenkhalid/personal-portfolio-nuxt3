@@ -8,18 +8,25 @@
               Let’s work together!
             </h2>
             <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
-            <form>
+            <form class="mt-5">
               <div class="">
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Your Name">
               </div>
               <div class="">
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email Address">
               </div>
               <div class="">
-                <input type="number" placeholder="Phone">
+                <input type="number" placeholder="Phone Number">
               </div>
               <div class="">
                 <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="mt-8">
+                <Button as-child>
+                  <a href="/public" class="hire-me-btn !py-7">
+                    Send Message
+                  </a>
+                </Button>
               </div>
             </form>
           </div>
@@ -44,6 +51,27 @@
   .contact-form {
     background: var(--tj-theme-accent-2);
   }
+
+  .contact-form input, textarea {
+    display: block;
+    width: 100%;
+    background: var(--tj-black-2);
+    border: 1px solid var(--tj-grey-4);
+    font-size: 16px;
+    line-height: 1;
+    color: var(--tj-white);
+    padding: 14px 20px;
+    border-radius: 8px;
+    transition: all 0.3s 0s ease-out;
+    outline: none;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .contact-form textarea {
+    min-height: 150px;
+  }
 </style>
 <script setup lang="ts">
+import {Button} from "~/components/ui/button";
 </script>
