@@ -1,7 +1,10 @@
+<script setup>
+import { PhoneForwarded, Mail, BookUser } from 'lucide-vue-next';
+</script>
 <template>
   <div class="contact-section">
     <div class="container">
-      <div class="flex">
+      <div class="flex items-center">
         <div class="w-full md:w-1/2">
           <div class="contact-form p-10 rounded-xl">
             <h2 class="section-title text-[30px] md:text-[45px]">
@@ -23,7 +26,7 @@
               </div>
               <div class="mt-8">
                 <Button as-child>
-                  <a href="/public" class="hire-me-btn !py-7">
+                  <a href="/" class="hire-me-btn !py-7">
                     Send Message
                   </a>
                 </Button>
@@ -32,8 +35,16 @@
           </div>
         </div>
         <div class="w-full md:w-1/2">
-          <div class="py-3">
-            test
+          <div class="contact-information ml-16 md:ml-20">
+            <div>
+              <PhoneForwarded />
+              phone</div>
+            <div>
+              <Mail />
+              Email</div>
+            <div>
+              <BookUser />
+              Address</div>
           </div>
         </div>
       </div>
@@ -71,7 +82,10 @@
   .contact-form textarea {
     min-height: 150px;
   }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 </style>
-<script setup lang="ts">
-import {Button} from "~/components/ui/button";
-</script>
