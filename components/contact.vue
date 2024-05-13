@@ -6,7 +6,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
     <div class="container">
       <div class="flex items-center flex-col-reverse md:flex-row">
         <div class="w-full md:w-1/2">
-          <div class="contact-form p-10 rounded-xl">
+          <div class="contact-form p-5 md:p-10 rounded-xl">
             <h2 class="section-title text-[30px] md:text-[45px]">
               Let’s work together!
             </h2>
@@ -34,13 +34,13 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
             </form>
           </div>
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 mb-10">
           <div class="contact-information md:ml-20 flex flex-col gap-y-8">
             <div class="flex items-center gap-x-4">
               <div class="contact-icon-box">
                 <PhoneForwarded class="contact-icon"/>
               </div>
-              <div class="">
+              <div class="max-w-[80%]">
                 <div>phone</div>
                 <a class="text-xl" href="tel:+8801798659099">+8801798659099</a>
               </div>
@@ -49,7 +49,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
               <div class="contact-icon-box">
                 <Mail class="contact-icon"/>
               </div>
-              <div class="">
+              <div class="max-w-[80%]">
                 <div>Email</div>
                 <a href="mailto:mohaimen707@gmail.com" class="text-xl">mohaimen707@gmail.com</a>
               </div>
@@ -58,7 +58,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
               <div class="contact-icon-box">
                 <BookUser class="contact-icon"/>
               </div>
-              <div>
+              <div class="max-w-[80%]">
                 <div>Address</div>
                 <div class="text-xl">Dhaka, Bangladesh</div>
               </div>
