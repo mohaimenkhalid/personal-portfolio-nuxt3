@@ -11,7 +11,7 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
           <h1 class="hero-title bg-clip text-[32px] md:text-[65px]">Software Engineer <br /> <span>(Frontend)</span></h1>
           <div class="w-full block md:hidden my-6">
             <div class="hero-image">
-              <img class="!w-[250px] !h-[300px]" src="../assets/image/mohaimen_dark.jpg"  alt="mohaimen-img" />
+              <img class="!w-[250px] !h-[300px]" src="../assets/image/mohaimen_desk.webp"  alt="mohaimen-img" />
             </div>
           </div>
           <p class="hero-lead">
@@ -35,7 +35,7 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
         </div>
         <div class="w-full md:w-1/2 hidden md:block">
           <div class="hero-image">
-            <img src="../assets/image/mohaimen_dark.jpg"  alt="mohaimen-img" />
+            <img src="../assets/image/mohaimen_desk.webp"  alt="mohaimen-img" />
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ import { Download, Linkedin, Github } from 'lucide-vue-next';
 
 .hero-image img {
   width: 400px;
-  height: 450px;
+  height: 500px;
   border: 3px solid var(--tj-theme-primary);
   border-radius: 38px;
   -webkit-transform: rotate(4.29deg);
