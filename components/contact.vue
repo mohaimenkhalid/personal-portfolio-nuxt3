@@ -4,7 +4,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
 <template>
   <div class="contact-section">
     <div class="container">
-      <div class="flex items-center">
+      <div class="flex items-center flex-col-reverse md:flex-row">
         <div class="w-full md:w-1/2">
           <div class="contact-form p-10 rounded-xl">
             <h2 class="section-title text-[30px] md:text-[45px]">
@@ -35,7 +35,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
           </div>
         </div>
         <div class="w-full md:w-1/2">
-          <div class="contact-information ml-16 md:ml-20 flex flex-col gap-y-8">
+          <div class="contact-information md:ml-20 flex flex-col gap-y-8">
             <div class="flex items-center gap-x-4">
               <div class="contact-icon-box">
                 <PhoneForwarded class="contact-icon"/>
@@ -49,7 +49,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
               <div class="contact-icon-box">
                 <Mail class="contact-icon"/>
               </div>
-              <div>
+              <div class="">
                 <div>Email</div>
                 <a href="mailto:mohaimen707@gmail.com" class="text-xl">mohaimen707@gmail.com</a>
               </div>
