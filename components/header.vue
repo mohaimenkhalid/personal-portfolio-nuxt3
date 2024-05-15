@@ -25,10 +25,10 @@ const isOpenMobileMenu = ref(false)
           <nav class="hidden md:block">
             <ul class="m-0 p-0 flex gap-x-8 list-none">
               <li class="inline-block">
-                <a href="/public">Services</a>
+                <a href="/public">About</a>
               </li>
               <li class="inline-block">
-                <a href="/public">Work</a>
+                <a href="/public">Portfolio</a>
               </li>
               <li class="inline-block">
                 <a href="">Resume</a>
@@ -43,8 +43,8 @@ const isOpenMobileMenu = ref(false)
           </nav>
           <div class="ml-8">
             <Button as-child>
-              <a href="/public" class="hire-me-btn">
-                Hire Me
+              <a href="mailto:mohaimen707@gmail.com" class="hire-me-btn">
+                Let's Work
               </a>
             </Button>
           </div>
