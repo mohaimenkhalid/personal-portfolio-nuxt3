@@ -189,7 +189,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border: 1px solid var(--tj-theme-primary);
+    border: none;
     padding: 10px;
     border-radius: 50%;
     letter-spacing: 1px;
@@ -197,9 +197,10 @@
     transition: 0.5s;
   }
   .social-icon:hover {
-    transform: rotate(360deg);
+    /*transform: rotate(360deg);*/
     scale: 1.2;
-    background-color: var(--tj-theme-primary);
+    background-color: var(--tj-white);
+    color: black;
     -webkit-box-shadow: var(--tj-theme-primary);
     -moz-box-shadow: var(--tj-theme-primary);
     box-shadow: var(--tj-theme-primary);
