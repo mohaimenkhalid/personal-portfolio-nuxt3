@@ -207,16 +207,16 @@
   }
 
   .section-title {
-    background: var(--tj-theme-primary);
-    background: -webkit-gradient(linear, left top, right top, from(var(--tj-theme-primary)), to(var(--tj-white)));
-    background: -o-linear-gradient(left, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
-    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background-image: linear-gradient(to right, #06b6d4, #3b82f6);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #06b6d4;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: rgba(14, 165, 233, 0);
+    --tw-gradient-to: #3b82f6;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-flex;
-    gap: 15px;
-    margin-bottom: 0;
-    font-weight: 700;
+    background-clip: text;
+    font-weight: 800;
+    color: transparent;
   }
 
   .section-header {

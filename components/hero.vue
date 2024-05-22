@@ -1,5 +1,5 @@
 <script setup>
-import {Download, Linkedin, Github} from 'lucide-vue-next';
+import {Download} from 'lucide-vue-next';
 </script>
 
 <template>
