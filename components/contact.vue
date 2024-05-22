@@ -72,7 +72,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
 
 <style scoped>
 .contact-section {
-  background: var(--tj-theme-accent-1);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }

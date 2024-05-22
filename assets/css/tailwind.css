@@ -46,6 +46,7 @@
     --tj-heading-primary: #102039;
     --tj-heading-secondary: #ea1826;
     --tj-theme-primary: #06b6d4;
+    --tj-theme-primary-2: #0ea5e9;
     --tj-theme-secondary: #3b82f6;
     --tj-theme-accent-1: #0f0715;
     --tj-theme-accent-2: #26163a;
@@ -121,7 +122,11 @@
     font-size: var(--tj-fz-body);
     font-weight: var(--tj-fw-regular);
     color: var(--tj-body);
-    background-color: var(--tj-black);
+    --tw-gradient-to: rgba(0,0,0,.4);
+    --tw-gradient-from: rgba(0,0,0,.4);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    @apply bg-gray-900
   }
 
   .hire-me-btn {
@@ -164,7 +169,7 @@
   /*hero section*/
 
   .hero-sub-title {
-    @apply mb-2.5 text-2xl md:text-xl text-[var(--tj-theme-primary)]
+    @apply mb-2.5 text-2xl md:text-xl text-[var(--tj-theme-primary-2)]
   }
 
   .hero-title {
@@ -201,9 +206,9 @@
     scale: 1.2;
     background-color: var(--tj-white);
     color: black;
-    -webkit-box-shadow: var(--tj-theme-primary);
-    -moz-box-shadow: var(--tj-theme-primary);
-    box-shadow: var(--tj-theme-primary);
+    -webkit-box-shadow: 0px 0px 20px 0px var(--tj-theme-primary);
+    -moz-box-shadow: 0px 0px 20px 0px var(--tj-theme-primary);
+    box-shadow: 0px 0px 20px 0px var(--tj-theme-primary);
   }
 
   .section-title {

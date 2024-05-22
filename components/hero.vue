@@ -165,7 +165,7 @@ import {Download} from 'lucide-vue-next';
 }
 
 .hero-section {
-  background: var(--tj-theme-accent-1);
+  background: transparent;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -223,17 +223,14 @@ import {Download} from 'lucide-vue-next';
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -20%;
+  top: 10%;
   width: 220px;
   height: 220px;
   border-radius: 50%;
   background: var(--tj-theme-primary);
-  background: -o-linear-gradient(190deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
   background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
-  -webkit-filter: blur(150px);
-  filter: blur(150px);
-  margin-left: -5%;
-  margin-bottom: -5%;
+  filter: blur(120px);
 }
 
 .btn-download {
@@ -249,17 +246,17 @@ import {Download} from 'lucide-vue-next';
   transition: .5s;
   background-color: #00000052;
   color: white;
-  -webkit-box-shadow: 0px 0px 91px -12px var(--tj-theme-primary);
+ /* -webkit-box-shadow: 0px 0px 91px -12px var(--tj-theme-primary);
   -moz-box-shadow: 0px 0px 91px -12px var(--tj-theme-primary);
-  box-shadow: 0px 0px 91px -12px var(--tj-theme-primary);
+  box-shadow: 0px 0px 91px -12px var(--tj-theme-primary);*/
 }
 
 .btn-download:hover {
   background-color: var(--tj-white);
   color: black;
-  -webkit-box-shadow: 0px 0px 91px 0px var(--tj-theme-primary);
-  -moz-box-shadow: 0px 0px 91px 0px var(--tj-theme-primary);
-  box-shadow: 0px 0px 91px 0px var(--tj-theme-primary);
+  -webkit-box-shadow: 0px 0px 40px 0px var(--tj-theme-primary);
+  -moz-box-shadow: 0px 0px 40px 0px var(--tj-theme-primary);
+  box-shadow: 0px 0px 40px 0px var(--tj-theme-primary);
 }
 
 .base-highlighter {

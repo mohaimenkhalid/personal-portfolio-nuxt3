@@ -62,7 +62,7 @@
 <style scoped>
 
 .skills-section {
-  background: var(--tj-theme-accent-1);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -74,12 +74,10 @@
 .skill-inner {
   border-radius: 25px;
   padding: 40px 15px 30px;
-  border: 1px solid transparent;
+  border: 1px solid #e3e3e347;
   margin-bottom: 15px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
-  background: var(--tj-theme-accent-2);
+  background: #ffffff12;
   text-align: center;
   display: flex;
   flex-direction: column;

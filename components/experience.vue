@@ -144,7 +144,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 
 <style scoped>
 .experience-section {
-  background: var(--tj-theme-accent-1);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
