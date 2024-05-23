@@ -6,136 +6,37 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   <div class="experience-section">
     <div class="container">
       <div class="flex gap-x-40 flex-col md:flex-row">
-        <div class="w-full md:w-1/2">
-          <div class="flex items-center mb-10 md:my-12">
-            <div>
-              <BriefcaseBusiness class="w-10 h-10 md:w-16 md:h-16 text-[color:var(--tj-theme-primary)]"/>
-            </div>
-            <h2 class="section-title text-[30px] md:text-[45px] ml-2">
-              My Experience
-            </h2>
-          </div>
-          <div class="flex flex-col">
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">Lead Software Engineer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-                  </a>
-                </div>
+        <div class="history-tl-container">
+          <ul class="tl">
+            <li class="tl-item exp-list-box-item">
+              <div class="timestamp">
+                3rd March 2015<br> 7:00 PM
               </div>
-            </div>
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">Software Engineer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-
-                  </a>
-                </div>
+              <div class="item-title">Lead Software Engineer (Frontend)</div>
+              <div class="item-detail">Jatri Service Limited</div>
+              <div class="item-detail">
+                <ul>
+                  <li>task i had done</li>
+                  <li>task i had done</li>
+                  <li>task i had done</li>
+                </ul>
               </div>
-            </div>
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">FullStack Developer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-
-                  </a>
-                </div>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="timestamp">
+                19th March 2015<br> 3:00 PM
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2">
-          <div class="flex items-center mb-10 md:my-12">
-            <div>
-              <GraduationCap class="w-10 h-10 md:w-16 md:h-16 text-[color:var(--tj-theme-primary)]"/>
-            </div>
-            <h2 class="section-title text-[30px] md:text-[45px] ml-2">
-              My Education
-            </h2>
-          </div>
-          <div class="flex flex-col">
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">Lead Software Engineer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-
-                  </a>
-                </div>
+              <div class="item-title">Software Engineer</div>
+              <div class="item-detail">Jatri Service Limited</div>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="timestamp">
+                1st June 2015<br> 7:00 PM
               </div>
-            </div>
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">Software Engineer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card group/resume hover:bg-[color:var(--tj-theme-primary)]">
-              <div class="resume-item">
-                <div
-                    class="group-hover/resume:text-white text-xl font-extrabold mb-2 text-[color:var(--tj-theme-primary)]">
-                  2020 - Present
-                </div>
-                <h3 class="text-lg md:text-2xl font-bold uppercase mb-2">FullStack Developer</h3>
-                <div class="">
-                  <a href="" class="flex items-center">
-                    <!--                  <img src="../assets/image/jatri.png" />-->
-                    <span> Jatri Service Limited</span>
-                    <ExternalLink
-                        class="w-5 h-5 ml-2 hidden group-hover/resume:block transition-all ease-in-out duration-700"/>
-
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+              <div class="item-title">Software Engineer</div>
+              <div class="item-detail">NamespceIT</div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -153,5 +54,71 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   border-radius: 5px;
   width: 30px;
   margin-right: 5px;
+}
+
+.history-tl-container {
+  /*font-family: "Roboto", sans-serif;*/
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.history-tl-container ul.tl {
+  margin: 20px 0;
+  padding: 0;
+  display: inline-block;
+
+}
+
+.history-tl-container ul.tl li.exp-list-box-item{
+  list-style: none;
+  margin: auto;
+  margin-left: 200px;
+  min-height: 50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px dashed #86D6FF;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.history-tl-container ul.tl li.exp-list-box-item:last-child {
+  border-left: 0;
+}
+
+.history-tl-container ul.tl li.exp-list-box-item::before {
+  position: absolute;
+  left: -11px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 0.74);
+  border-radius: 500%;
+  background: #258CC7;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+
+}
+
+.history-tl-container ul.tl li.exp-list-box-item:hover::before {
+  border-color: #258CC7;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.tl li .item-title {
+}
+
+.history-tl-container ul.tl li .item-detail {
+  color: white;
+  font-size: 12px;
+}
+
+.history-tl-container ul.tl li .timestamp {
+  color: #8D8D8D;
+  position: absolute;
+  width: 100px;
+  left: -50%;
+  text-align: right;
+  font-size: 12px;
 }
 </style>
