@@ -12,11 +12,11 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               <div class="timestamp">
                 3rd March 2015<br> 7:00 PM
               </div>
-              <div class="item-title">Lead Software Engineer (Frontend)</div>
-              <div class="item-detail">Jatri Service Limited</div>
-              <div class="item-detail">
-                <ul>
-                  <li>task i had done</li>
+              <div class="item-title text-xl">Lead Software Engineer (Frontend)</div>
+              <div class="text-sm font-semibold text-gray-400">Jatri Service Limited</div>
+              <div class="">
+                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                  <li class="">task i had done</li>
                   <li>task i had done</li>
                   <li>task i had done</li>
                 </ul>
@@ -26,15 +26,29 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               <div class="timestamp">
                 19th March 2015<br> 3:00 PM
               </div>
-              <div class="item-title">Software Engineer</div>
-              <div class="item-detail">Jatri Service Limited</div>
+              <div class="item-title text-xl">Software Engineer</div>
+              <div class="text-sm font-semibold text-gray-400">Jatri Service Limited</div>
+              <div class="">
+                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                  <li class="">task i had done</li>
+                  <li>task i had done</li>
+                  <li>task i had done</li>
+                </ul>
+              </div>
             </li>
             <li class="tl-item exp-list-box-item">
               <div class="timestamp">
                 1st June 2015<br> 7:00 PM
               </div>
-              <div class="item-title">Software Engineer</div>
-              <div class="item-detail">NamespceIT</div>
+              <div class="item-title text-xl">Software Engineer</div>
+              <div class="text-sm font-semibold text-gray-400">NamespceIT</div>
+              <div class="">
+                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                  <li class="">task i had done</li>
+                  <li>task i had done</li>
+                  <li>task i had done</li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -76,9 +90,8 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   margin: auto;
   margin-left: 200px;
   min-height: 50px;
-  /*background: rgba(255,255,0,0.1);*/
-  border-left: 1px dashed #86D6FF;
-  padding: 0 0 50px 30px;
+  border-left: 1px solid #6b6b6b;
+  padding: 0 0 25px 30px;
   position: relative;
 }
 
@@ -88,14 +101,14 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 
 .history-tl-container ul.tl li.exp-list-box-item::before {
   position: absolute;
-  left: -11px;
+  left: -16px;
   top: -5px;
   content: " ";
-  border: 8px solid rgba(255, 255, 255, 0.74);
+  border: 6px solid rgba(255, 255, 255, 0.74);
   border-radius: 500%;
-  background: #258CC7;
-  height: 20px;
-  width: 20px;
+  background: #485156;
+  height: 30px;
+  width: 30px;
   transition: all 500ms ease-in-out;
 
 }
@@ -106,11 +119,6 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 }
 
 ul.tl li .item-title {
-}
-
-.history-tl-container ul.tl li .item-detail {
-  color: white;
-  font-size: 12px;
 }
 
 .history-tl-container ul.tl li .timestamp {
