@@ -7,47 +7,125 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
     <div class="container">
       <div class="flex gap-x-40 flex-col md:flex-row">
         <div class="history-tl-container">
+          <h2 class="section-title text-[30px] md:text-[45px]">Experience</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="timestamp">
-                3rd March 2015<br> 7:00 PM
-              </div>
-              <div class="item-title text-xl">Lead Software Engineer (Frontend)</div>
-              <div class="text-sm font-semibold text-gray-400">Jatri Service Limited</div>
-              <div class="">
-                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                  <li class="">task i had done</li>
-                  <li>task i had done</li>
-                  <li>task i had done</li>
-                </ul>
-              </div>
-            </li>
-            <li class="tl-item exp-list-box-item">
-              <div class="timestamp">
-                19th March 2015<br> 3:00 PM
-              </div>
-              <div class="item-title text-xl">Software Engineer</div>
-              <div class="text-sm font-semibold text-gray-400">Jatri Service Limited</div>
-              <div class="">
-                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                  <li class="">task i had done</li>
-                  <li>task i had done</li>
-                  <li>task i had done</li>
-                </ul>
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="timestamp">
-                1st June 2015<br> 7:00 PM
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
               </div>
-              <div class="item-title text-xl">Software Engineer</div>
-              <div class="text-sm font-semibold text-gray-400">NamespceIT</div>
-              <div class="">
-                <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                  <li class="">task i had done</li>
-                  <li>task i had done</li>
-                  <li>task i had done</li>
-                </ul>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="history-tl-container">
+          <h2 class="section-title text-[30px] md:text-[45px]">Education</h2>
+          <ul class="tl">
+            <li class="tl-item exp-list-box-item">
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="bg-white w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  2000-2024
+                </div>
+                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li class="">task i had done SAfawf</li>
+                    <li>task i had done sdgewaf</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                    <li>task i had done</li>
+                  </ul>
+                </div>
               </div>
             </li>
           </ul>
@@ -88,7 +166,6 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 .history-tl-container ul.tl li.exp-list-box-item{
   list-style: none;
   margin: auto;
-  margin-left: 200px;
   min-height: 50px;
   border-left: 1px solid #6b6b6b;
   padding: 0 0 25px 30px;
@@ -118,9 +195,6 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   transition: all 1000ms ease-in-out;
 }
 
-ul.tl li .item-title {
-}
-
 .history-tl-container ul.tl li .timestamp {
   color: #8D8D8D;
   position: absolute;
@@ -128,5 +202,17 @@ ul.tl li .item-title {
   left: -50%;
   text-align: right;
   font-size: 12px;
+}
+
+.title {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgba(14, 165, 233, 0);
+  --tw-gradient-to: #3b82f6;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 800;
+  color: transparent;
 }
 </style>
