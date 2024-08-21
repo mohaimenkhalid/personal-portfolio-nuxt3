@@ -6,124 +6,112 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   <div class="experience-section">
     <div class="container">
       <div class="flex gap-x-40 flex-col md:flex-row">
-        <div class="history-tl-container">
+        <div class="history-tl-container experience-content-section">
           <h2 class="section-title text-[30px] md:text-[45px]">Experience</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="history-tl-container">
+        <div class="history-tl-container education-content-section">
           <h2 class="section-title text-[30px] md:text-[45px]">Education</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-white w-[500px] rounded-2xl p-4">
+              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl text-black font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-gray-600">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li class="">task i had done SAfawf</li>
-                    <li>task i had done sdgewaf</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
-                    <li>task i had done</li>
+                    <li>B2B services: Intercity, Ship Management</li>
+                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
+                    <li>Gov. Project: Worked with various gov. projects</li>
+                    <li>Also maintaining legacy products</li>
                   </ul>
                 </div>
               </div>
@@ -214,5 +202,45 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
   background-clip: text;
   font-weight: 800;
   color: transparent;
+}
+
+ul li {
+  color: #b8b1a6;
+}
+
+.experience-content-section:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  width: 322px;
+  height: 108px;
+  border-radius: 50%;
+  background: var(--tj-theme-primary);
+  background: -o-linear-gradient(190deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+  background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+  margin-right: -5%;
+  margin-top: -5%;
+  z-index: -1;
+}
+
+.education-content-section:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 322px;
+  height: 108px;
+  border-radius: 50%;
+  background: var(--tj-theme-primary);
+  background: -o-linear-gradient(190deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+  background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+  margin-right: -5%;
+  margin-top: -5%;
+  z-index: -1;
 }
 </style>
