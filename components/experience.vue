@@ -10,7 +10,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
           <h2 class="section-title text-[30px] md:text-[45px]">Experience</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -27,7 +27,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -44,7 +44,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -66,7 +66,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
           <h2 class="section-title text-[30px] md:text-[45px]">Education</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -83,7 +83,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -100,7 +100,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[#191b1c] w-[500px] rounded-2xl p-4">
+              <div class="bg-[var(--tj-black-primary)] w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -211,7 +211,7 @@ ul li {
 .experience-content-section:before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: -10%;
   width: 322px;
   height: 108px;

@@ -7,9 +7,14 @@ import {Download} from 'lucide-vue-next';
     <div class="container">
       <div class="w-full flex">
         <div class="w-full md:w-2/3">
+          <div class="w-full block md:hidden mb-2">
+            <div class="hero-image">
+              <img class="!w-[150px] !h-[200px] !rounded-2xl" src="../assets/image/mohaimen_desk.webp" alt="mohaimen-img"/>
+            </div>
+          </div>
           <span class="hero-sub-title font-bold">Welcome to my site.</span>
-          <h1 class="heading-hero ">I'm <strong>Abdul Mohaimen</strong>, a Frontend developer.</h1>
-          <ul class="sm:scrollbar-none -mx-4 mb-2 flex items-center gap-6 overflow-x-auto px-4 pb-2 text-[15px] font-medium">
+          <h1 class="heading-hero">I'm <strong>Abdul Mohaimen</strong>, a Frontend developer.</h1>
+          <ul class=" skill-set flex-wrap sm:scrollbar-none -mx-4 mb-2 flex items-center gap-6 overflow-x-auto px-4 pb-2 text-[15px] font-medium">
             <li class="flex items-center gap-2 text-gray-500 d:text-gray-400">
               <svg
                   class="text-sm me-0 w-7 h-7 text-brand dark:text-brand-dark flex origin-center transition-all ease-in-out"
@@ -18,7 +23,7 @@ import {Download} from 'lucide-vue-next';
                       data-v-c5baed57=""></path>
                 <path fill="#565758" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-c5baed57=""></path>
               </svg>
-              Vue JS
+              Vue.JS
             </li>
 
             <li class="flex items-center gap-2 text-gray-500 d:text-gray-400">
@@ -32,7 +37,7 @@ import {Download} from 'lucide-vue-next';
                   <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse>
                 </g>
               </svg>
-              React JS
+              React.JS
             </li>
             <li class="flex items-center gap-2 text-gray-500 d:text-gray-400">
               <svg class="text-black dark:text-white block w-7 h-7" stroke-width="0" height="1em" width="1em"
@@ -43,7 +48,7 @@ import {Download} from 'lucide-vue-next';
                     d="M168 200H279C282.542 200 285.932 198.756 289 197C292.068 195.244 295.23 193.041 297 190C298.77 186.959 300.002 183.51 300 179.999C299.998 176.488 298.773 173.04 297 170.001L222 41C220.23 37.96 218.067 35.7552 215 34C211.933 32.2448 207.542 31 204 31C200.458 31 197.067 32.2448 194 34C190.933 35.7552 188.77 37.96 187 41L168 74L130 9.99764C128.228 6.95784 126.068 3.75491 123 2C119.932 0.245087 116.542 0 113 0C109.458 0 106.068 0.245087 103 2C99.9323 3.75491 96.7717 6.95784 95 9.99764L2 170.001C0.226979 173.04 0.00154312 176.488 1.90993e-06 179.999C-0.0015393 183.51 0.229648 186.959 2 190C3.77035 193.04 6.93245 195.244 10 197C13.0675 198.756 16.4578 200 20 200H90C117.737 200 137.925 187.558 152 164L186 105L204 74L259 168H186L168 200ZM89 168H40L113 42L150 105L125.491 147.725C116.144 163.01 105.488 168 89 168Z"
                     fill="#565967"></path>
               </svg>
-              Nuxt JS
+              Nuxt.JS
             </li>
             <li class="flex items-center gap-2 text-gray-500 d:text-gray-400">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none"
@@ -94,12 +99,7 @@ import {Download} from 'lucide-vue-next';
               Laravel
             </li>
           </ul>
-          <div class="w-full block md:hidden my-6">
-            <div class="hero-image">
-              <img class="!w-[250px] !h-[300px]" src="../assets/image/mohaimen_desk.webp" alt="mohaimen-img"/>
-            </div>
-          </div>
-          <p class="text-gray-400 text-xl tracking-tight">
+          <p class="text-gray-400 text-xl tracking-tight text-justify">
             As a Software Engineer with over 4+ years of experience 🚀,
             I specialize in designing and implementing highly scalable API-based
             solutions with a focus on improving performance. My biggest achievements
@@ -107,7 +107,7 @@ import {Download} from 'lucide-vue-next';
             operations for various clients.
 
           </p>
-          <p class="text-gray-400 mt-4 text-xl tracking-tight">
+          <p class="text-gray-400 mt-4 text-xl tracking-tight text-justify">
             Currently I lead a frontend team. As a <strong class="base-highlighter">Lead Frontend Developer</strong> at @<strong>JATRI</strong>, I thrive on mentoring and leading
             development teams.
             I've consistently upheld and strengthened my abilities in communication and collaboration,
@@ -270,6 +270,33 @@ import {Download} from 'lucide-vue-next';
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+  .heading-hero {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.05em;
+  }
+  .hero-image img {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    mix-blend-mode: normal;
+  }
+
+  .hero-image {
+    justify-content: start !important;
+  }
+
+  .skill-set {
+    background: var(--tj-black-primary);
+    padding: 14px;
+    border-radius: 14px;
+  }
+
 }
 
 

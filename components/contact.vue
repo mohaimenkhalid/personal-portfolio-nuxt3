@@ -78,7 +78,7 @@ import {PhoneForwarded, Mail, BookUser} from 'lucide-vue-next';
 }
 
 .contact-form {
-  background: var(--tj-theme-accent-2);
+  background: var(--tj-black-secoundary);
 }
 
 .contact-form input, textarea {
