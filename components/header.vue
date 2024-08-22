@@ -3,6 +3,22 @@ import { BriefcaseBusiness } from 'lucide-vue-next';
 
 import {Button} from "~/components/ui/button";
 const isOpenMobileMenu = ref(false)
+
+watch(() => isOpenMobileMenu.value, (currentVale) => {
+  if(currentVale) {
+    stopBodyScroll()
+  } else {
+    allowBodyScroll()
+  }
+})
+
+function stopBodyScroll() {
+  document.body.style.overflow = "hidden";
+}
+
+function allowBodyScroll() {
+  document.body.style.overflow = "";
+}
 </script>
 
 <template>
@@ -62,9 +78,15 @@ const isOpenMobileMenu = ref(false)
         <li class="mobile_menu_list_item">
           <a href="/public">Work</a>
         </li>
-        <li class="mobile_menu_list_item">Resume</li>
-        <li class="mobile_menu_list_item">Skill</li>
-        <li class="mobile_menu_list_item">Contact</li>
+        <li class="mobile_menu_list_item">
+          <a href="/public">Resume</a>
+        </li>
+        <li class="mobile_menu_list_item">
+          <a href="/public">Skill</a>
+        </li>
+        <li class="mobile_menu_list_item">
+          <a href="/public">Contact</a>
+        </li>
       </ul>
     </div>
   </Transition>
@@ -85,8 +107,8 @@ const isOpenMobileMenu = ref(false)
 }
 
 ul li a{
-  font-weight: var(--tj-fw-medium);
-  font-size: var(--tj-fz-btn);
+  /*font-weight: var(--tj-fw-medium);
+  font-size: var(--tj-fz-btn);*/
 }
 
 .slide-enter-active {

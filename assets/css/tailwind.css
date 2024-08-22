@@ -157,7 +157,39 @@
   }
 
   .mobile_menu_container {
-    @apply absolute right-0 top-[120px] bottom-0 bg-[color:var(--tj-theme-secondary)] w-full h-full z-[9999]
+    @apply fixed right-0 top-[120px] bottom-0 bg-[color:var(--tj-black)] w-full h-full z-[9999]
+  }
+
+  .mobile_menu_container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 322px;
+    height: 308px;
+    border-radius: 50%;
+    background: var(--tj-theme-primary);
+    background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+    filter: blur(150px);
+    margin-right: -5%;
+    margin-top: -5%;
+    z-index: -1;
+  }
+
+  .mobile_menu_container:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: -30%;
+    width: 322px;
+    height: 308px;
+    border-radius: 50%;
+    background: var(--tj-theme-primary);
+    background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
+    filter: blur(150px);
+    margin-right: -5%;
+    margin-top: -5%;
+    z-index: -1;
   }
 
   .mobile_menu_list_item {
