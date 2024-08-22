@@ -103,6 +103,17 @@
 .skill-item .skill-inner img {
   width: 60px;
 }
+@media screen and (max-width: 480px) {
+  .skill-inner {
+    height: 80px;
+    padding: 25px;
+  }
+  .skill-item {
+    max-width: 80px;
+  }
+}
+
+
 </style>
 <script setup lang="ts">
 </script>
