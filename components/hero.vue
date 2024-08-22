@@ -6,7 +6,7 @@ import {Download} from 'lucide-vue-next';
   <section class="hero-section">
     <div class="container">
       <div class="w-full flex">
-        <div class="w-full md:w-2/3">
+        <div class="w-full md:w-2/3" data-aos="fade-right">
           <div class="w-full block md:hidden mb-2">
             <div class="hero-image">
               <img class="!w-[150px] !h-[200px] !rounded-2xl" src="../assets/image/mohaimen_desk.webp" alt="mohaimen-img"/>
@@ -129,7 +129,7 @@ import {Download} from 'lucide-vue-next';
           </div>
         </div>
         <div class="w-full md:w-1/3 hidden md:block">
-          <div class="hero-image">
+          <div class="hero-image" data-aos="fade-down-left">
             <img src="../assets/image/mohaimen_desk.webp" alt="mohaimen-img"/>
           </div>
         </div>

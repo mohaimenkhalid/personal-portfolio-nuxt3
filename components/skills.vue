@@ -13,43 +13,43 @@
       </div>
       <div class="flex flex-wrap gap-x-6">
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/vue.svg">
           </div>
           <h3>Vue JS</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/nuxt.svg">
           </div>
           <h3>Nuxt JS</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/react.svg">
           </div>
           <h3>React</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/nextjs.svg">
           </div>
           <h3>Next JS</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/javascript.svg">
           </div>
           <h3>JS</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/laravel.svg">
           </div>
           <h3>Laravel</h3>
         </div>
         <div class="skill-item group/skillItem">
-          <div class="skill-inner ">
+          <div class="skill-inner" data-aos="flip-right">
             <img class="group-hover/skillItem:scale-125 transition-all ease-in-out duration-700" src="../assets/image/php.svg">
           </div>
           <h3>PHP</h3>
