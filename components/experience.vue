@@ -10,7 +10,24 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
           <h2 class="section-title text-[30px] md:text-[45px]">Experience</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="800">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
+                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
+                  Jan, 2023-present
+                </div>
+                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
+                <div class="">
+                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
+                    <li>Led a team of 8 frontend developers in designing, developing, and maintaining high-quality, scalable web applications.</li>
+                    <li>Established and enforced best practices for frontend development, including - code reviews, coding standards, and performance optimization.</li>
+                    <li>Collaborated closely with designers and backend engineers and product managers, to ensure timely and successful project delivery.</li>
+                    <li>Mentored junior developers and conducted code reviews to ensure high-quality standards.</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="tl-item exp-list-box-item">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -27,24 +44,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="1000">
-                <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  2000-2024
-                </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
-                <div class="">
-                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-            <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="1500">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
@@ -66,53 +66,38 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
           <h2 class="section-title text-[30px] md:text-[45px]">Education</h2>
           <ul class="tl">
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="800">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  2000-2024
+                  2014-2018
                 </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">B.Sc. in Computer Science & Engineering (CSE)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Daffodil International University</div>
                 <div class="">
-                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
-                  </ul>
+                  CGPA: 3.36 out of 4.00
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="1000">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  2000-2024
+                  2010-2012
                 </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Higher Secondary Certificate (HSC)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Fulbaria College</div>
                 <div class="">
-                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
-                  </ul>
+                  GPA: 5.00 out of 5.00
                 </div>
               </div>
             </li>
             <li class="tl-item exp-list-box-item">
-              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4" data-aos="fade-down-left" data-aos-duration="1500">
+              <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Secondary School Certificate (SSC)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Al-hera Academy High School</div>
                 <div class="">
-                  <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
-                  </ul>
+                  GPA: 5.00 out of 5.00
                 </div>
               </div>
             </li>
@@ -139,7 +124,6 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 .history-tl-container {
   /*font-family: "Roboto", sans-serif;*/
   width: 100%;
-  margin: auto;
   display: block;
   position: relative;
 }

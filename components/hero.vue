@@ -111,7 +111,7 @@ import {Download} from 'lucide-vue-next';
             Currently I lead a frontend team. As a <strong class="base-highlighter">Lead Frontend Developer</strong> at @<strong>JATRI</strong>, I thrive on mentoring and leading
             development teams.
             I've consistently upheld and strengthened my abilities in communication and collaboration,
-            cultivating fruitful connections with designers, frontend developers, backend developers and stakeholders.
+            cultivating fruitful connections with designers, frontend developers, backend developers, product manager and stakeholders.
           </p>
           <div class="flex mt-10 items-center gap-5 flex-col md:flex-row">
             <a class="btn-download" href="">
