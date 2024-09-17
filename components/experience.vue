@@ -18,9 +18,15 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
                 <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>Led a team of 8 frontend developers in designing, developing, and maintaining high-quality, scalable web applications.</li>
-                    <li>Established and enforced best practices for frontend development, including - code reviews, coding standards, and performance optimization.</li>
-                    <li>Collaborated closely with designers and backend engineers and product managers, to ensure timely and successful project delivery.</li>
+                    <li>Led a team of 8 frontend developers in designing, developing, and maintaining high-quality,
+                      scalable web applications.
+                    </li>
+                    <li>Established and enforced best practices for frontend development, including - code reviews,
+                      coding standards, and performance optimization.
+                    </li>
+                    <li>Collaborated closely with designers and backend engineers and product managers, to ensure timely
+                      and successful project delivery.
+                    </li>
                     <li>Mentored junior developers and conducted code reviews to ensure high-quality standards.</li>
                   </ul>
                 </div>
@@ -29,16 +35,22 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
             <li class="tl-item exp-list-box-item">
               <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  2000-2024
+                  Jan 2022 - Jan 2023
                 </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
+                <div class="text-xl font-semibold">Software Engineer</div>
                 <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
+                    <li>Developed/Led 3 products from scratch:
+                      <br/> ‣ Online Ticketing [Bus, Launch](B2C)
+                      <br/> ‣ Intercity [Admin panel, Operator panel, Seller Panel, Agent Panel](B2B)
+                      <br/> ‣ Water transport(B2B) [Admin panel, Operator panel, Seller Panel]
+                    </li>
+                    <li>Optimized web application performance by 40% using new frontend architecture and technic</li>
+                    <li>Implemented new feature , re-build/refactor features & Bug fixing in various projects</li>
+                    <li>Build reusable components it saves development time</li>
+                    <li>Helping other frontend Engineers in frontend tasks</li>
+                    <li>Mentoring existing team members & new Joiners in the frontend team</li>
                   </ul>
                 </div>
               </div>
@@ -48,8 +60,8 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
                   2000-2024
                 </div>
-                <div class="text-xl font-semibold">Lead Software Engineer (Frontend)</div>
-                <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
+                <div class="text-xl font-semibold">Software Engineer (Fullstack)</div>
+                <div class="text-sm font-semibold text-[#bab3a8]">Namespace IT</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
                     <li>B2B services: Intercity, Ship Management</li>
@@ -135,7 +147,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 
 }
 
-.history-tl-container ul.tl li.exp-list-box-item{
+.history-tl-container ul.tl li.exp-list-box-item {
   list-style: none;
   margin: auto;
   min-height: 50px;
@@ -229,12 +241,13 @@ ul li {
 }
 
 @media screen and (max-width: 480px) {
-  .history-tl-container ul.tl li.exp-list-box-item{
+  .history-tl-container ul.tl li.exp-list-box-item {
     border: none;
     padding: 0;
     margin-bottom: 15px;
   }
-  .history-tl-container ul.tl li.exp-list-box-item:before{
+
+  .history-tl-container ul.tl li.exp-list-box-item:before {
     content: normal;
   }
 }
