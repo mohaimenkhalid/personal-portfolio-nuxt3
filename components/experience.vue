@@ -1,7 +1,7 @@
 <script setup>
 import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
 </script>
-
+ 
 <template>
   <div class="experience-section">
     <div class="container">
@@ -35,7 +35,7 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
             <li class="tl-item exp-list-box-item">
               <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  Jan 2022 - Jan 2023
+                  Jan, 2022 - Jan, 2023 (1yr)
                 </div>
                 <div class="text-xl font-semibold">Software Engineer</div>
                 <div class="text-sm font-semibold text-[#bab3a8]">Jatri Service Limited</div>
@@ -58,16 +58,21 @@ import {BriefcaseBusiness, ExternalLink, GraduationCap} from 'lucide-vue-next'
             <li class="tl-item exp-list-box-item">
               <div class="bg-[var(--tj-black-primary)] w-full md:w-[500px] rounded-2xl p-4">
                 <div class="text-[var(--tj-theme-primary-2)] font-semibold">
-                  2000-2024
+                  Dec, 2019 - Dec, 2021 (2yr+)
                 </div>
-                <div class="text-xl font-semibold">Software Engineer (Fullstack)</div>
+                <div class="text-xl font-semibold">Software Engineer (Fullstack - Laravel + React)</div>
                 <div class="text-sm font-semibold text-[#bab3a8]">Namespace IT</div>
                 <div class="">
                   <ul class="list-outside list-disc pl-4 text-sm text-gray-500 marker:text-gray-400 d:text-gray-300/80 d:marker:text-gray-600 print:!text-base">
-                    <li>B2B services: Intercity, Ship Management</li>
-                    <li>B2C services: Jatri Rental, Jatri Online Ticket</li>
-                    <li>Gov. Project: Worked with various gov. projects</li>
-                    <li>Also maintaining legacy products</li>
+                    <li>Responsibilities with discussing client’s requirements and proposed solutions with teams</li>
+                    <li>Worked on the server-side, front-end side</li>
+                    <li>Developed and optimize api for various services and implemented on client side</li>
+                    <li>Delivered 4 major projects on time and within budget</li>
+                    <li>Developed 2 projects from scratch:
+                      <br/> ‣ Hotel Booking Application - build with Laravel, NextJS, React
+                      <br/> ‣ Working experience in Payment Gateway implementation  (SSL Commerce, Stripe, TapPay)
+                      <br/> ‣ Worked on Various ecommerce projects
+                    </li>
                   </ul>
                 </div>
               </div>
