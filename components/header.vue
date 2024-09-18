@@ -25,9 +25,9 @@ function allowBodyScroll() {
   <header class="header-area header-absolute h-30">
     <div class="container flex items-center">
       <div class="logo mr-9">
-        <a href="">
+        <NuxtLink to="/">
           <BriefcaseBusiness class="w-10 h-10" />
-        </a>
+        </NuxtLink>
       </div>
       <div class="hidden md:block">
         <ul class="m-0 p-0 list-none">
@@ -47,7 +47,7 @@ function allowBodyScroll() {
                 <a href="/public">Portfolio</a>
               </li>
               <li class="inline-block">
-                <a href="">Resume</a>
+                <NuxtLink to="/resume">Resume</NuxtLink>
               </li>
               <li class="inline-block">
                 <a href="">Skill</a>
