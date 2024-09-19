@@ -3,11 +3,9 @@
     <div class="container">
       <div class="section-header">
         <div class="w-full">
-          <h2 class="section-title text-[30px] md:text-[45px]">My Skills</h2>
+          <h2 class="section-title text-[30px] md:text-[45px]">My Skill</h2>
           <p>
-            We put your ideas and thus your wishes in the
-            form of a unique web project that inspires
-            you and you customers.
+            Crazy Frontend Developer Who Wants To Explore Every Cool Tech
           </p>
         </div>
       </div>

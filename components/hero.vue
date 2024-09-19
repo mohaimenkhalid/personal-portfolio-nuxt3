@@ -164,8 +164,6 @@ import {Download} from 'lucide-vue-next';
   color: transparent;
 }
 
-
-
 .hero-section {
   background: transparent;
   position: relative;

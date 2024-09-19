@@ -4,7 +4,6 @@
 
 <template>
   <div>
-    <Header />
     <Hero />
     <Skills />
     <Experience />
