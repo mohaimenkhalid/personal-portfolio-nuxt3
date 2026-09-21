@@ -1,0 +1,65 @@
+.skills-section {
+  position: relative;
+}
+
+.rows {
+  margin-top: 44px;
+  border-top: 1px solid var(--tj-border);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--tj-border);
+}
+
+@media (max-width: 720px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+.rowHead {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rowKicker {
+  font-size: 12.5px;
+  color: var(--tj-fg-subtle);
+}
+
+.rowTitle {
+  font-family: var(--tj-ff-heading);
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--tj-fg);
+}
+
+.pillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--tj-fg-muted);
+  border: 1px solid var(--tj-border);
+  background: var(--tj-bg-raised);
+  border-radius: 999px;
+  padding: 8px 14px;
+}
+
+.pill img {
+  width: 16px;
+  height: 16px;
+}

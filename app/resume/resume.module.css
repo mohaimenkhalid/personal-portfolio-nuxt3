@@ -1,20 +1,3 @@
-<script setup lang="ts">
-
-</script>
-<template>
-  <section class="resume-container">
-    <div class="container">
-      <ClientOnly>
-        <vue-pdf-app
-            style="height: 80vh"
-            pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf">
-        </vue-pdf-app>
-      </ClientOnly>
-    </div>
-  </section>
-</template>
-
-<style scoped>
 .resume-container {
   padding: 160px 0 50px;
 }
@@ -36,4 +19,3 @@
   margin-top: -5%;
   z-index: -1;
 }
-</style>

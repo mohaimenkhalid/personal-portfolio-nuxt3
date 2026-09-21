@@ -1,0 +1,141 @@
+.experience-section {
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 56px;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 1px solid var(--tj-border);
+}
+
+.progressLine {
+  position: absolute;
+  left: -1px;
+  top: 0;
+  width: 2px;
+  height: 0%;
+  background: var(--tj-accent);
+}
+
+.timeline.compact {
+  border-left-color: var(--tj-border);
+}
+
+.item {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 4px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--tj-bg);
+  border: 2px solid var(--tj-fg-subtle);
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.item:hover::before {
+  border-color: var(--tj-accent);
+  background: var(--tj-accent);
+}
+
+.period {
+  font-family: var(--tj-ff-mono);
+  font-size: 12.5px;
+  color: var(--tj-accent);
+  margin-bottom: 6px;
+}
+
+.role {
+  font-family: var(--tj-ff-heading);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--tj-fg);
+}
+
+.company {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--tj-fg-subtle);
+  margin-bottom: 12px;
+}
+
+.bullets {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--tj-fg-muted);
+}
+
+.bullets li {
+  margin-bottom: 6px;
+}
+
+.bullets li::marker {
+  color: var(--tj-fg-subtle);
+}
+
+.sectionLabel {
+  font-family: var(--tj-ff-heading);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--tj-fg);
+  margin-bottom: 28px;
+}
+
+.eduItem {
+  border: 1px solid var(--tj-border);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  background: var(--tj-surface);
+}
+
+.eduPeriod {
+  font-family: var(--tj-ff-mono);
+  font-size: 12px;
+  color: var(--tj-accent-2);
+  margin-bottom: 4px;
+}
+
+.eduTitle {
+  font-weight: 700;
+  color: var(--tj-fg);
+  font-size: 15px;
+}
+
+.eduSchool {
+  font-size: 13px;
+  color: var(--tj-fg-subtle);
+  margin-bottom: 4px;
+}
+
+.eduNote {
+  font-size: 12.5px;
+  color: var(--tj-fg-muted);
+}

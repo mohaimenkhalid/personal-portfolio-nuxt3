@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --tj-ff-heading: "Sora", sans-serif;
+    --tj-ff-mono: "JetBrains Mono", ui-monospace, monospace;
+
+    /* surfaces */
+    --tj-bg: #09090a;
+    --tj-bg-raised: #101012;
+    --tj-surface: #121214;
+    --tj-surface-2: #17171a;
+    --tj-border: rgba(255, 255, 255, 0.08);
+    --tj-border-strong: rgba(255, 255, 255, 0.16);
+
+    /* text */
+    --tj-fg: #f3f2ee;
+    --tj-fg-muted: #a3a2a0;
+    --tj-fg-subtle: #6f6e6c;
+
+    /* frontend = dominant / warm signal, backend = supporting / cool */
+    --tj-accent: #f2b134;
+    --tj-accent-fg: #17130a;
+    --tj-accent-soft: rgba(242, 177, 52, 0.12);
+    --tj-accent-2: #34c7b8;
+    --tj-accent-2-soft: rgba(52, 199, 184, 0.12);
+
+    --tj-fw-regular: 400;
+    --tj-fz-body: 16px;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--tj-border);
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--tj-accent) transparent;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: var(--tj-fz-body);
+    font-weight: var(--tj-fw-regular);
+    color: var(--tj-fg-muted);
+    background: var(--tj-bg);
+  }
+
+  ::selection {
+    background: var(--tj-accent);
+    color: var(--tj-accent-fg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* shared section scaffolding */
+
+  .section {
+    position: relative;
+    padding: 96px 0;
+  }
+
+  @media (max-width: 767px) {
+    .section {
+      padding: 64px 0;
+    }
+  }
+
+  .section-heading {
+    font-family: var(--tj-ff-heading);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--tj-fg);
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.1;
+  }
+
+  .section-lede {
+    max-width: 620px;
+    color: var(--tj-fg-muted);
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    color: var(--tj-fg-muted);
+    background: var(--tj-surface);
+    border: 1px solid var(--tj-border);
+    border-radius: 999px;
+    padding: 5px 12px;
+  }
+
+  .btn-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--tj-accent-fg);
+    background: var(--tj-accent);
+    border: 1px solid var(--tj-accent);
+    border-radius: 10px;
+    padding: 16px 26px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    text-decoration: none !important;
+  }
+
+  .btn-solid:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px -12px var(--tj-accent-soft);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--tj-fg);
+    background: transparent;
+    border: 1px solid var(--tj-border-strong);
+    border-radius: 10px;
+    padding: 16px 26px;
+    transition: border-color 0.3s ease, background 0.3s ease, transform 0.3s ease;
+    text-decoration: none !important;
+  }
+
+  .btn-ghost:hover {
+    border-color: var(--tj-accent);
+    background: var(--tj-accent-soft);
+    transform: translateY(-2px);
+  }
+
+  .glow {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(120px);
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--tj-border);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  .social-icon:hover {
+    border-color: var(--tj-accent);
+    color: var(--tj-accent);
+    transform: translateY(-2px);
+  }
+
+  .mobile_menu_container {
+    @apply fixed right-0 top-0 bottom-0 w-full h-full z-[9999];
+    background: var(--tj-bg-raised);
+  }
+
+  .mobile_menu_list_item {
+    @apply text-2xl py-2.5 uppercase leading-none tracking-[1px] mb-[20px];
+  }
+
+  .mobile_menu {
+    @apply m-0 p-0 list-none text-center mt-6;
+  }
+}
