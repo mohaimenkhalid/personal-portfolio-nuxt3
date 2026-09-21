@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Download } from 'lucide-react'
+import { Download, Code2 } from 'lucide-react'
 import { motion, useReducedMotion } from 'motion/react'
 import Reveal from '@/components/reveal'
 import styles from './hero.module.css'
@@ -66,9 +66,10 @@ export default function Hero() {
 
             <Reveal delay={0.15} className={styles['lead-copy']}>
               <p>
-                I&apos;m a <strong>Lead Frontend Engineer</strong> with 6+ years building scalable,
-                component-driven web applications — currently leading the frontend team at{' '}
-                <strong>Jatri Service Limited</strong>. I care about interaction detail, accessible
+                I&apos;m a <strong>Sr. Software Engineer &amp; Frontend Team Lead</strong> with 6+
+                years building scalable, component-driven web applications — currently leading a
+                team of 6 frontend developers at{' '}
+                <strong>Jatri Services Limited</strong>. I care about interaction detail, accessible
                 UI, and frontend architecture that stays maintainable as a product grows.
               </p>
               <p className="mt-4">
@@ -99,10 +100,21 @@ export default function Hero() {
                 </a>
                 <a
                   className="social-icon text-gray-400 hover:text-gray-500"
-                  href=""
+                  href="https://linkedin.com/in/abdul-mohaimen"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
                   <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
+                </a>
+                <a
+                  className="social-icon text-gray-400 hover:text-gray-500"
+                  href="https://leetcode.com/u/mohaimenkhalid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LeetCode"
+                >
+                  <Code2 className="h-5 w-5" />
                 </a>
               </div>
             </Reveal>
@@ -123,7 +135,7 @@ export default function Hero() {
                 <Image src="/images/mohaimen_desk.webp" alt="Abdul Mohaimen" fill sizes="340px" style={{ objectFit: 'cover' }} priority />
                 <div className={styles.badge}>
                   Leading frontend @ Jatri
-                  <span>8-engineer team</span>
+                  <span>6-engineer team</span>
                 </div>
               </motion.div>
             </motion.div>

@@ -83,6 +83,17 @@
   margin-bottom: 12px;
 }
 
+.company a {
+  color: var(--tj-fg-subtle);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--tj-border-strong);
+}
+
+.company a:hover {
+  color: var(--tj-accent);
+}
+
 .bullets {
   list-style: disc;
   list-style-position: outside;

@@ -4,10 +4,11 @@ import styles from './about.module.css'
 const FACTS = [
   { label: 'Based in', value: 'Dhaka, Bangladesh' },
   { label: 'Experience', value: '6+ years' },
-  { label: 'Currently', value: 'Lead Frontend Engineer @ Jatri' },
+  { label: 'Currently', value: 'Frontend Team Lead @ Jatri' },
   { label: 'Education', value: 'B.Sc. CSE, Daffodil International University' },
   { label: 'Focus', value: 'Frontend, with full-stack range' },
   { label: 'Workflow', value: 'AI-driven development' },
+  { label: 'Problem solving', value: '130+ LeetCode problems' },
 ]
 
 export default function About() {
@@ -28,11 +29,12 @@ export default function About() {
               small interaction details that make a product feel finished.
             </p>
             <p>
-              As a <strong>Lead Frontend Engineer at Jatri Service Limited</strong>, I lead a team
-              of 8 frontend developers, set frontend standards around code review and performance,
-              and work closely with design, backend and product to ship on time. Earlier in my
-              career I worked as a fullstack engineer building <strong>Laravel APIs</strong> and
-              integrating payment gateways end-to-end.
+              As <strong>Sr. Software Engineer &amp; Frontend Team Lead at Jatri Services
+              Limited</strong>, I lead a team of 6 frontend developers, set frontend standards
+              around code review and performance, and work closely with design, backend and
+              product to ship on time. Earlier in my career I worked as a fullstack engineer at
+              Namespace IT, building applications with <strong>Laravel, React and Angular</strong>{' '}
+              and integrating payment gateways end-to-end.
             </p>
             <p>
               Understanding the backend side of a product helps me build better frontends — I know

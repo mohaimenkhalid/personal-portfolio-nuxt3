@@ -11,17 +11,17 @@ const POINTS = [
   {
     icon: Gauge,
     title: 'Frontend performance',
-    body: 'Reworked the frontend architecture on a core product and measured a 40% performance improvement — the kind of gain that only shows up when you profile first and refactor deliberately.',
+    body: 'Reworked the frontend architecture on a core product and measured a 40% performance improvement while cutting UI-related bugs by 80%. Migrated a legacy codebase to dynamic imports and caching, cutting initial load time by another 40%.',
   },
   {
     icon: Layers,
     title: 'Multi-product frontend systems',
-    body: 'Led frontend for three products built from scratch at Jatri — B2C online ticketing, a multi-role B2B intercity platform (admin, operator, seller, agent panels), and a water-transport B2B system.',
+    body: 'Led frontend for three products built from scratch at Jatri — B2C online ticketing, a multi-role B2B intercity platform (admin, operator, seller, agent panels) handling 200k+ tickets a day, and a water-transport B2B system.',
   },
   {
     icon: Users,
     title: 'Team standards & mentoring',
-    body: 'Lead a team of 8 frontend engineers: code review standards, performance budgets, and pairing with design, backend and product to keep delivery predictable.',
+    body: 'Lead a team of 6 frontend engineers: code review standards, performance benchmarks, and pairing with product, design, QA and backend to keep delivery predictable.',
   },
 ]
 

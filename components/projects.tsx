@@ -1,8 +1,48 @@
-import { ImageOff, Github, ExternalLink, Info } from 'lucide-react'
+import { ImageOff, ExternalLink } from 'lucide-react'
 import Reveal from '@/components/reveal'
 import styles from './projects.module.css'
 
-const PLACEHOLDER_PROJECTS = [1, 2, 3]
+const PROJECTS = [
+  {
+    title: 'Multimodal Travelling Platform (B2C)',
+    desc: 'All-in-one travel booking platform unifying bus, launch and rental services, with real-time search and comparison.',
+    stack: ['Nuxt.js', 'Vuex', 'Tailwind'],
+    link: { label: 'jatri.co', href: 'https://jatri.co/' },
+  },
+  {
+    title: 'Intercity B2B Service (Bus & Launches)',
+    desc: 'B2B ticketing platform streamlining reservation, ticket management, ticket sales, operator-side operations and agent management.',
+    stats: 'Manages 5,000+ buses and 200+ operators — 200k+ tickets processed per day.',
+    stack: ['Vue 3', 'GraphQL', 'Vuex', 'Tailwind', 'PrimeVue', 'WebSocket'],
+  },
+  {
+    title: 'Saafir',
+    desc: 'Redefines travel for retailers and passengers — combines premium chauffeur services with verified Saafir Stays.',
+    stack: ['Vue', 'Pinia'],
+    link: { label: 'saafir.co', href: 'https://saafir.co/' },
+  },
+  {
+    title: 'Car Rental Service',
+    desc: 'Car rental platform for trips and business travel.',
+    stats: '90k+ users, 35k+ partners, 50k+ registered vehicles.',
+    stack: ['React', 'Tailwind', 'Redux'],
+  },
+  {
+    title: 'Rentamo',
+    desc: 'Online hotel booking and travel solution for travelers.',
+    stack: ['Next.js', 'Redux', 'Tailwind'],
+  },
+  {
+    title: 'UNI-Prep Institute',
+    desc: 'Site for a leading TEFL & TESOL course provider, with 1,000+ graduates every year.',
+    stack: [],
+  },
+  {
+    title: 'E-commerce',
+    desc: 'Multiple e-commerce builds — product listing, cart and checkout flows, and payment method integration.',
+    stack: ['React', 'Laravel', 'Bootstrap'],
+  },
+]
 
 export default function Projects() {
   return (
@@ -11,45 +51,49 @@ export default function Projects() {
         <Reveal>
           <h2 className="section-heading">Projects</h2>
           <p className="section-lede mt-4">
-            This section is reserved for real project case studies — UI quality, interaction
-            design, component architecture, and outcomes. Swap these placeholders for actual
-            projects, screenshots, and links.
+            Products I&apos;ve built or led the frontend for, mostly B2B/B2C platforms at Jatri
+            and client work at Namespace IT.
           </p>
         </Reveal>
 
         <div className={styles.list}>
-          {PLACEHOLDER_PROJECTS.map((n) => (
-            <div key={n} className={styles.row}>
+          {PROJECTS.map((project) => (
+            <div key={project.title} className={styles.row}>
               <div className={styles.thumb}>
                 <ImageOff className="h-6 w-6" />
               </div>
               <div>
-                <div className={styles.title}>Project title placeholder</div>
-                <p className={styles.desc}>
-                  Add a short description here: what it does, your specific contribution, and the
-                  problem it solves.
-                </p>
-                <div className={styles.tags}>
-                  <span className={styles.tag}>tech</span>
-                  <span className={styles.tag}>tech</span>
-                  <span className={styles.tag}>tech</span>
-                </div>
-                <div className={styles.links}>
-                  <span className={styles.linkDisabled}>
-                    <Github className="h-4 w-4" /> Add repo link
-                  </span>
-                  <span className={styles.linkDisabled}>
-                    <ExternalLink className="h-4 w-4" /> Add live link
-                  </span>
-                </div>
+                <div className={styles.title}>{project.title}</div>
+                <p className={styles.desc}>{project.desc}</p>
+                {project.stats && <p className={styles.stats}>{project.stats}</p>}
+                {project.stack.length > 0 && (
+                  <div className={styles.tags}>
+                    {project.stack.map((tech) => (
+                      <span key={tech} className={styles.tag}>
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                {project.link && (
+                  <a
+                    href={project.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.link}
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    {project.link.label}
+                  </a>
+                )}
               </div>
             </div>
           ))}
         </div>
 
-        <div className={styles.notice}>
-          <Info className="h-4 w-4 flex-shrink-0" />
-          Placeholder content — replace with real projects, screenshots and links before shipping.
+        <div className={styles.note}>
+          Most of these are B2B platforms or client work without a public repo or standalone
+          demo — screenshots to come.
         </div>
       </div>
     </section>

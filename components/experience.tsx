@@ -13,47 +13,51 @@ if (typeof window !== 'undefined') {
 const JOBS = [
   {
     period: 'Jan 2023 — Present',
-    role: 'Lead Software Engineer (Frontend)',
-    company: 'Jatri Service Limited',
+    role: 'Sr. Software Engineer & Frontend Team Lead',
+    company: 'Jatri Services Limited',
+    companyUrl: 'https://jatri.co/',
     bullets: [
-      'Led a team of 8 frontend developers designing, developing, and maintaining high-quality, scalable web applications.',
-      'Established and enforced frontend best practices — code reviews, coding standards, and performance optimization.',
-      'Collaborated closely with designers, backend engineers and product managers to ensure timely, successful delivery.',
-      'Mentored junior developers and conducted code reviews to maintain quality standards.',
+      'Led a team of 6 frontend developers while actively contributing hands-on development.',
+      'Architected and developed core frontend features alongside team management responsibilities.',
+      'Defined and enforced frontend best practices, including performance benchmarks and code review standards.',
+      'Oversaw end-to-end project execution — planning, task allocation, sprint management, team coordination, and critical decision-making.',
+      'Collaborated closely with Product, UI/UX, QA and Backend to bridge technical gaps and deliver seamless user experiences.',
+      'Mentored junior developers on complex technical challenges and modern frontend best practices.',
     ],
   },
   {
     period: 'Jan 2022 — Jan 2023 (1yr)',
-    role: 'Software Engineer',
-    company: 'Jatri Service Limited',
+    role: 'Software Engineer L3 (Frontend)',
+    company: 'Jatri Services Limited',
+    companyUrl: 'https://jatri.co/',
     bullets: [
-      'Developed/led 3 products from scratch: Online Ticketing (Bus, Launch — B2C), Intercity (Admin, Operator, Seller, Agent panels — B2B), and Water Transport (Admin, Operator, Seller panels — B2B).',
-      'Optimized web application performance by 40% using a new frontend architecture and technique.',
-      'Implemented new features, refactored existing ones, and handled bug fixing across projects.',
-      'Built reusable components that saved development time across the team.',
-      'Mentored existing team members and new joiners on the frontend team.',
+      'Spearheaded development of 3 platforms from scratch: Online Ticketing (Bus, Launch — B2C), Intercity Transport System (Admin, Operator, Seller, Agent panels — B2B), and Water Transport System (Admin, Operator, Seller dashboards — B2B).',
+      'Optimized the ticketing experience and improved user performance by 40% through refactoring and redesigning the legacy codebase.',
+      'Took ownership of feature development, refactoring, and bug fixing, contributing to cleaner, more scalable, maintainable codebases.',
+      'Built and maintained reusable components, significantly reducing development time and increasing consistency across applications.',
     ],
   },
   {
     period: 'Dec 2019 — Dec 2021 (2yr+)',
-    role: 'Software Engineer (Fullstack — Laravel + React)',
+    role: 'Software Engineer (Fullstack)',
     company: 'Namespace IT',
+    companyUrl: 'https://namespaceit.com/',
     bullets: [
-      'Discussed client requirements and proposed solutions with cross-functional teams.',
-      'Worked across both server-side and frontend layers of the stack.',
-      'Developed and optimized APIs for various services, then consumed them on the client side.',
-      'Delivered 4 major projects on time and within budget.',
-      'Built a Hotel Booking application from scratch (Laravel, Next.js, React) and integrated payment gateways (SSLCommerz, Stripe, TapPay) across several e-commerce projects.',
+      'Built and maintained full-stack web applications using Laravel, Next.js, React.js and Angular.',
+      'Designed responsive UI components and integrated payment gateways (Stripe, SSLCommerz).',
+      'Collaborated directly with clients to gather business requirements and translate them into effective, scalable technical solutions.',
+      'Identified and fixed critical bugs, leading debugging efforts to quickly resolve complex issues.',
+      'Built a Hotel Booking application from scratch using Laravel, Next.js and React.',
     ],
   },
 ]
 
 const EDUCATION = [
   {
-    period: '2014 — 2018',
+    period: '2014 — 2019',
     title: 'B.Sc. in Computer Science & Engineering (CSE)',
     school: 'Daffodil International University',
-    note: 'CGPA: 3.36 out of 4.00',
+    note: 'CGPA: 3.37 out of 4.00',
   },
   {
     period: '2010 — 2012',
@@ -112,7 +116,15 @@ export default function Experience() {
                 <div key={job.role + job.period} className={styles.item}>
                   <div className={styles.period}>{job.period}</div>
                   <div className={styles.role}>{job.role}</div>
-                  <div className={styles.company}>{job.company}</div>
+                  <div className={styles.company}>
+                    {job.companyUrl ? (
+                      <a href={job.companyUrl} target="_blank" rel="noopener noreferrer">
+                        {job.company}
+                      </a>
+                    ) : (
+                      job.company
+                    )}
+                  </div>
                   <ul className={styles.bullets}>
                     {job.bullets.map((bullet) => (
                       <li key={bullet}>{bullet}</li>

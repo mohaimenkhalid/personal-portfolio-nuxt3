@@ -3,8 +3,8 @@ import Reveal from '@/components/reveal'
 import styles from './backend-capabilities.module.css'
 
 const PROFESSIONAL = [
-  'Built and optimized REST APIs in Laravel, then consumed them from React/Next.js frontends.',
-  'Integrated payment gateways end-to-end — SSLCommerz, Stripe and TapPay — across e-commerce projects.',
+  'Built and optimized REST APIs in Laravel, then consumed them from React/Next.js/Angular frontends.',
+  'Integrated payment gateways end-to-end — Stripe and SSLCommerz.',
   'Built a Hotel Booking application from scratch, owning both the Laravel backend and the frontend.',
 ]
 

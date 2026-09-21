@@ -49,8 +49,8 @@ export default function Contact() {
               </div>
               <div>
                 <div className={styles['contact-label']}>Phone</div>
-                <a className={styles['contact-value']} href="tel:+8801798659099">
-                  +8801798659099
+                <a className={styles['contact-value']} href="tel:+88017986549099">
+                  017986549099
                 </a>
               </div>
             </div>
